@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+
+	<title>Home Page</title>
+
+	<link rel="stylesheet" type="text/css" href="assets/css/home/style.css">
+
+	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+
+</head>
+<body>
+
+	<nav class="navbar navbar-inverse">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu">
+					<span class="glyphicon glyphicon-align-justify" aria-hidden="true"></span>
+				</button>
+				<a class="navbar-brand" href="index.html">Final Fantasy</a>
+			</div>
+			<div class="collapse navbar-collapse" id="menu">
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="home.html">Home</a></li>
+					<li><a href="character.html">Character</a></li>
+					<li><a href="equipment.html">Equipment</a></li>
+					<li><a href="mission.html">Mission</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<div class="container-fluid">
+		<div class="row col-xs-12 text-center">
+			<img src="assets/images/logo-lg.png">
+		</div>
+
+		<div class="row col-xs-12 col-md-6">
+			<!-- Carousel -->
+			<div id="myCarousel" class="container carousel slide" data-ride="carousel">
+
+				<!-- Carousel Indicators -->
+				<ol class="carousel-indicators">
+					<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+					<li data-target="#myCarousel" data-slide-to="1"></li>
+					<li data-target="#myCarousel" data-slide-to="2"></li>
+					<li data-target="#myCarousel" data-slide-to="3"></li>
+				</ol>
+
+				<!-- Slides -->
+				<div class="carousel-inner" id="img">
+					<div class="item active" id="car-img-1">
+						<img src="assets/images/car-0.jpg">
+					</div>
+
+					<div class="item" id="car-img-2">
+						<img src="assets/images/car-1.jpg">
+					</div>
+
+					<div class="item" id="car-img-3">
+						<img src="assets/images/car-2.png">
+					</div>
+
+					<div class="item" id="car-img-4">
+						<img src="assets/images/car-3.png">
+					</div>
+				</div> <!-- End of slides -->
+
+				<a class="left carousel-control" href="#myCarousel" data-slide="prev">
+					<span class="glyphicon glyphicon-chevron-left"></span>
+				</a>
+
+				<a class="right carousel-control" href="#myCarousel" data-slide="next">
+					<span class="glyphicon glyphicon-chevron-right"></span>
+				</a>
+
+			</div> <!-- End of carousel -->
+		</div> <!-- End of carousel container -->
+
+		<div class="row col-md-4 col-md-offset-1 col-xs-12 text-center" id="button">
+			<button type="button" class="btn btn-block">Buy Now</button>
+			<button type="button" class="btn btn-block">Download Now</button>
+		</div> <!-- End of buttons -->
+
+		<div class="row page-header text-center col-md-4 col-md-offset-4 col-xs-12 well">
+			<h2>INTRODUCTION</h2>
+		</div>
+
+		<div class="row col-md-4 col-md-offset-4 col-xs-12 well">
+			<h4>Overview</h4>
+			<div class="well">
+				<p>The game's story centers on four children; Marche, Mewt, Ritz, and Doned, who live in a small town named St. Ivalice. The children are transported to a realm of the same name as their town, "Ivalice", after discovering an ancient magical book. The story then focuses on the exploits of Marche as he attempts to return to the real world while facing opposition from those around him.</p>
+			</div>
+		</div>
+
+	</div> <!-- End of container -->
+
+
+<!-- bootstrap jQuery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+
+<!-- include all compile plugins needed for bootstrap -->
+<script src="assets/js/bootstrap.min.js"></script>
+
+</body>
+</html>
