@@ -13,7 +13,7 @@
 </head>
 <body>
 
-	<nav class="navbar navbar-inverse">
+	<nav class="navbar navbar-inverse navbar-fixed-top">
 		<div class="container-fluid">
 			<div class="navbar-header">
 				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu">
@@ -24,129 +24,142 @@
 			<div class="collapse navbar-collapse" id="menu">
 				<ul class="nav navbar-nav">
 					<li><a href="home.html">Home</a></li>
-					<li class="active"><a href="character.html">Character</a></li>
-					<li><a href="equipment.html">Equipment</a></li>
+					<li><a href="character.html">Character</a></li>
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">Equipment<span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="headgear.html">Headgear</a></li>
+							<li><a href="#">Armor</a></li>
+							<li><a href="#">Weapons</a></li>
+							<li><a href="#">Others</a></li>
+						</ul>
+					</li>
 					<li><a href="mission.html">Mission</a></li>
 				</ul>
 			</div>
 		</div>
 	</nav>
 
-	<div class="well">
-		<h3>Main Characters</h3>
+
+	<div class="container">
+		<div class="well">
+			<h3>Main Characters</h3>
 			<div class="well">
-				<table class="table table-responsive">
-					<tbody>
-						<tr>
-							<td>
-								<img src="assets/images/main/marche.gif" class="img-responsive">
-								<a href="#marche" data-toggle="collapse">Marche Radiuju</a>
-								<div id="marche" class="collapse">
-									<p>The protagonist of Final Fantasy Tactics Advance. A young child who has just moved into a new town, Marche finds it hard to fit in until he makes two new friends: the shy Mewt Randell and the more outspoken Ritz Malheur. After the trio discovers an ancient book with Marche's brother Doned, they are transported to the magical world of Ivalice. Marche vows to return him and his friends back to their true reality.</p>
-								</div>
-							</td>
-							<td>
-								<img src="assets/images/main/month.gif">
-								<a href="#monthblanc" data-toggle="collapse">Monthblanc</a>
-								<div id="monthblanc" class="collapse">
-									<p>A recurring character in the Ivalice series of games. He is a hard-working moogle, and in all his appearances leads a clan. He debuts in Final Fantasy Tactics Advance where he is a playable character and the game's deuteragonist. He finds Marche Radiuju after St. Ivalice transforms into the land of Ivalice, and later decides to help him revert the land to normal.</p>
-								</div>
-							</td>
-							<td>
-								<a href="#ritz" data-toggle="collapse">Ritz Malheur</a>
-								<div id="ritz" class="collapse">
-									<p>The female protagonist of Final Fantasy Tactics Advance. The headstrong class head, she appears bossy, but has a vulnerable side. Shara the viera is her partner, and comforts her many times during the game.</p>
-								</div>
-							</td>
-							<td>
-								<p>Mewt Randell</p>
-							</td>
-						</tr>
-						<tr>
-							<td>
-								<p>Babus Swain</p>
-							</td>
-							<td>
-								<p>Ezel Berbier</p>
-							</td>
-							<td>
-								Shara
-							</td>
-							<td>
-								Doned Radiuju
-							</td>
-						</tr>
-					</tbody>
-				</table>
+				<div class="table-responsive">
+					<table class="table table-bordered">
+						<thead>
+							<tr>
+								<th colspan="4">Playable</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>
+									<img src="assets/images/Main/marche.gif" class="img-responsive" alt="...">
+									<p>Marche<br>Radiuju</p>
+								</td>
+								<td>
+									<img src="assets/images/Main/month.gif" class="img-responsive" alt="...">
+									<p>Monthblanc</p>
+								</td>
+								<td>
+									<img src="assets/images/Main/ritz.gif" class="img-responsive" alt="...">
+									<p>Ritz<br>Malheur</p>
+								</td>
+								<td>
+									<img src="assets/images/Main/shara.gif" class="img-responsive" alt="...">
+									<p>Shara</p>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<img src="assets/images/Main/ezel.png" class="img-responsive" alt="...">
+									<p>Ezel<br>Berbier</p>
+								</td>
+								<td>
+									<img src="assets/images/Main/babus.png" class="img-responsive" alt="...">
+									<p>Babus<br>Swain</p>
+								</td>
+								<td>
+									<img src="assets/images/Main/judgecid.gif" class="img-responsive" alt="...">
+									<p>Cid<br>Randel</p>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
 			</div>
 
-		<h3>Race</h3>
-		<div class="well">
-			<table class="table table-responsive">
-				<thead>
-					<tr>
-						<th>Human</th>
-					</tr>
-				</thead>
-				<tbody>
-					<tr>
-						<td>
-							<img src="assets/images/human/soldier.gif" class="img-responsive" alt="...">
-							<p>Soldier</p>
-						</td>
-						<td>
-							<img src="assets/images/human/thief.gif" class="img-responsive" alt="...">
-							<p>Thief</p>
-						</td>
-						<td>
-							<img src="assets/images/human/archer.gif" class="img-responsive" alt="...">
-							<p>Archer</p>
-						</td>
-						<td>
-							<img src="assets/images/human/whitemage.gif" class="img-responsive" alt="...">
-							<p>White Mage</p>
-						</td>
-					</tr>
-					<tr>
-						<td>
-							<img src="assets/images/human/blackmage.gif" class="img-responsive" alt="...">
-							<p>Black Mage</p>
-						</td>
-					</tr>
-				</tbody>
-			</table> <!-- End of human table -->
+			<h3>Race</h3>
+			<div class="well">
+				<div class="table-responsive">
+					<table class="table table-bordered">
+						<thead>
+							<tr>
+								<th colspan="4">Human</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>
+									<img src="assets/images/human/soldier.gif" class="img-responsive" alt="...">
+									<p>Soldier</p>
+								</td>
+								<td>
+									<img src="assets/images/human/thief.gif" class="img-responsive" alt="...">
+									<p>Thief</p>
+								</td>
+								<td>
+									<img src="assets/images/human/archer.gif" class="img-responsive" alt="...">
+									<p>Archer</p>
+								</td>
+								<td>
+									<img src="assets/images/human/whitemage.gif" class="img-responsive" alt="...">
+									<p>White<br>Mage</p>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<img src="assets/images/human/blackmage.gif" class="img-responsive" alt="...">
+									<p>Black <br> Mage</p>
+								</td>
+							</tr>
+						</tbody>
+					</table> <!-- End of human table -->
+				</div>
 
-			<table class="table">
-				<thead>
-					<tr>
-						<th>Nu Mou</th>
-					</tr>
-				</thead>
-				<tbody>
-					<tr>
-						<td>
-							<img src="assets/images/moogle/blackmage.gif" class="img-responsive" alt="...">
-							<p>Black Mage</p>
-						</td>
-						<td>
-							<img src="assets/images/moogle/thief.gif" class="img-responsive" alt="...">
-							<p>Thief</p>
-						</td>
-						<td>
-							<img src="assets/images/moogle/animist.gif" class="img-responsive" alt="...">
-							<p>Animist</p>
-						</td>
-						<td>
-							<img src="assets/images/moogle/mogknight.gif" class="img-responsive" alt="...">
-							<p>Mog Knight</p>
-						</td>
-					</tr>
-				</tbody>
-			</table> <!-- End of moogle -->
-			
-		</div> <!-- End of  header -->
-	</div> <!-- End of char container well -->
-
+				<div class="table-responsive">
+					<table class="table table-bordered">
+						<thead>
+							<tr>
+								<th colspan="4">Moogle</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>
+									<img src="assets/images/moogle/blackmage.gif" class="img-responsive" alt="...">
+									<p>Black<br>Mage</p>
+								</td>
+								<td>
+									<img src="assets/images/moogle/thief.gif" class="img-responsive" alt="...">
+									<p>Thief</p>
+								</td>
+								<td>
+									<img src="assets/images/moogle/animist.gif" class="img-responsive" alt="...">
+									<p>Animist</p>
+								</td>
+								<td>
+									<img src="assets/images/moogle/mogknight.gif" class="img-responsive" alt="...">
+									<p>Mog<br>Knight</p>
+								</td>
+							</tr>
+						</tbody>
+					</table> <!-- End of moogle -->
+				</div>
+			</div> <!-- End of  header -->
+		</div> <!-- End of char container well -->
+	</div> <!-- End of container -->
 
 <!-- bootstrap jQuery -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>

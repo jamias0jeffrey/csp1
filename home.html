@@ -14,7 +14,7 @@
 </head>
 <body>
 
-	<nav class="navbar navbar-inverse">
+	<nav class="navbar navbar-inverse navbar-fixed-top">
 		<div class="container-fluid">
 			<div class="navbar-header">
 				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu">
@@ -24,9 +24,17 @@
 			</div>
 			<div class="collapse navbar-collapse" id="menu">
 				<ul class="nav navbar-nav">
-					<li class="active"><a href="home.html">Home</a></li>
+					<li><a href="home.html">Home</a></li>
 					<li><a href="character.html">Character</a></li>
-					<li><a href="equipment.html">Equipment</a></li>
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">Equipment<span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="headgear.html">Headgear</a></li>
+							<li><a href="#">Armor</a></li>
+							<li><a href="#">Weapons</a></li>
+							<li><a href="#">Others</a></li>
+						</ul>
+					</li>
 					<li><a href="mission.html">Mission</a></li>
 				</ul>
 			</div>
@@ -34,65 +42,75 @@
 	</nav>
 
 	<div class="container-fluid">
-		<div class="row col-xs-12 text-center">
-			<img src="assets/images/logo-lg.png">
+		<div class="row">
+			<div class="col-md-4 col-md-offset-4 col-xs-12">
+				<img class="img-responsive" src="assets/images/logo-lg.png" id="logo1">
+			</div>
 		</div>
 
-		<div class="row col-xs-12 col-md-6">
+		<div class="row">
 			<!-- Carousel -->
-			<div id="myCarousel" class="container carousel slide" data-ride="carousel">
+			<div class="col-lg-6 col-xs-12 col-md-6">
+				<div id="myCarousel" class="container carousel slide" data-ride="carousel">
 
-				<!-- Carousel Indicators -->
-				<ol class="carousel-indicators">
-					<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-					<li data-target="#myCarousel" data-slide-to="1"></li>
-					<li data-target="#myCarousel" data-slide-to="2"></li>
-					<li data-target="#myCarousel" data-slide-to="3"></li>
-				</ol>
+					<!-- Carousel Indicators -->
+					<ol class="carousel-indicators">
+						<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+						<li data-target="#myCarousel" data-slide-to="1"></li>
+						<li data-target="#myCarousel" data-slide-to="2"></li>
+						<li data-target="#myCarousel" data-slide-to="3"></li>
+					</ol>
 
-				<!-- Slides -->
-				<div class="carousel-inner" id="img">
-					<div class="item active" id="car-img-1">
-						<img src="assets/images/car-0.jpg">
-					</div>
+					<!-- Slides -->
+					<div class="carousel-inner" id="img">
+						<div class="item active" id="car-img-1">
+							<img src="assets/images/car-0.jpg">
+						</div>
 
-					<div class="item" id="car-img-2">
-						<img src="assets/images/car-1.jpg">
-					</div>
+						<div class="item" id="car-img-2">
+							<img src="assets/images/car-1.jpg">
+						</div>
 
-					<div class="item" id="car-img-3">
-						<img src="assets/images/car-2.png">
-					</div>
+						<div class="item" id="car-img-3">
+							<img src="assets/images/car-2.png">
+						</div>
 
-					<div class="item" id="car-img-4">
-						<img src="assets/images/car-3.png">
-					</div>
-				</div> <!-- End of slides -->
+						<div class="item" id="car-img-4">
+							<img src="assets/images/car-3.png">
+						</div>
+					</div> <!-- End of slides -->
 
-				<a class="left carousel-control" href="#myCarousel" data-slide="prev">
-					<span class="glyphicon glyphicon-chevron-left"></span>
-				</a>
+					<a class="left carousel-control" href="#myCarousel" data-slide="prev">
+						<span class="glyphicon glyphicon-chevron-left"></span>
+					</a>
 
-				<a class="right carousel-control" href="#myCarousel" data-slide="next">
-					<span class="glyphicon glyphicon-chevron-right"></span>
-				</a>
-
-			</div> <!-- End of carousel -->
+					<a class="right carousel-control" href="#myCarousel" data-slide="next">
+						<span class="glyphicon glyphicon-chevron-right"></span>
+					</a>
+				</div> <!-- End of carousel -->
+			</div> <!-- End of carousel row -->
+			<div class=" home-button col-lg-6 col-md-3 col-xs-12">
+				<button type="button" class="btn btn-block">Buy Now</button>
+				<button type="button" class="btn btn-block">Download Now</button>
+			</div>
 		</div> <!-- End of carousel container -->
 
-		<div class="row col-md-4 col-md-offset-1 col-xs-12 text-center" id="button">
-			<button type="button" class="btn btn-block">Buy Now</button>
-			<button type="button" class="btn btn-block">Download Now</button>
-		</div> <!-- End of buttons -->
 
-		<div class="row page-header text-center col-md-4 col-md-offset-4 col-xs-12 well">
-			<h2>INTRODUCTION</h2>
+			
+
+
+		<div class="row">
+			<div class="page-header text-center col-md-4 col-md-offset-4 col-xs-12 well">
+				<h2>INTRODUCTION</h2>
+			</div>
 		</div>
 
-		<div class="row col-md-4 col-md-offset-4 col-xs-12 well">
-			<h4>Overview</h4>
-			<div class="well">
-				<p>The game's story centers on four children; Marche, Mewt, Ritz, and Doned, who live in a small town named St. Ivalice. The children are transported to a realm of the same name as their town, "Ivalice", after discovering an ancient magical book. The story then focuses on the exploits of Marche as he attempts to return to the real world while facing opposition from those around him.</p>
+		<div class="row">
+			<div class="col-md-4 col-md-offset-4 col-xs-12 well">
+				<h4>Overview</h4>
+				<div class="well">
+					<p>The game's story centers on four children; Marche, Mewt, Ritz, and Doned, who live in a small town named St. Ivalice. The children are transported to a realm of the same name as their town, "Ivalice", after discovering an ancient magical book. The story then focuses on the exploits of Marche as he attempts to return to the real world while facing opposition from those around him.</p>
+				</div>
 			</div>
 		</div>
 

@@ -1,16 +1,16 @@
-
+body {
+	padding-top: 70px;
+}
 
 #table1 {
 	border: 1px solid;
 }
 
-#hd1 {
+th {
 	background-color: skyblue;
-	width: 80px;
 	vertical-align: middle;
 }
 
 td {
 	background-color: #D2EDFF;
-	width: 80px;
 }
