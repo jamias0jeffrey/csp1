@@ -1,16 +1,53 @@
 body {
 	padding-top: 70px;
+	background: skyblue;
 }
 
-#table1 {
-	border: 1px solid;
+table {
+	margin-top: 5px;
 }
 
 th {
-	background-color: skyblue;
+	background-color: #437ad3;
 	vertical-align: middle;
+	width: 25%;
 }
 
 td {
 	background-color: #D2EDFF;
+}
+
+#search-btn {
+	margin-bottom: 5px;
+	width: 20%;
+	float: right;
+}
+
+.table-data1 {
+	width: 25%;
+}
+
+
+@media only screen and (max-width: 767px) {
+	#search-btn {
+	margin-bottom: 5px;
+	width: 50%;
+	float: right;
+	}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+	#search-btn {
+	margin-bottom: 5px;
+	width: 25%;
+	float: right;
+	}
+}
+
+@media only screen and (min-width: 993px) {
+	#search-btn {
+	margin-bottom: 5px;
+	width: 20%;
+	float: right;
+	}
 }

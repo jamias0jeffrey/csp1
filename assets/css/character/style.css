@@ -1,12 +1,41 @@
-/*table, th, td {
-	border: 1px solid black;
-	width: 30px;
-}*/
 body {
-	padding-top: 70px; 
+  padding-top: 70px;
+  background-color: skyblue;
+}
+
+.table-data {
+  width: 25%;
+  text-align: center;
+}
+
+.modal-header {
+	text-align: center;
 }
 
 
-table {
-	white-space: nowrap;
+.well {
+   background-color: rgba(245, 245, 245, 0.4);
+}
+
+
+.vertical-alignment-helper {
+    display:table;
+    height: 100%;
+    width: 100%;
+    pointer-events:none;
+}
+.vertical-align-center {
+    /* To center vertically */
+    display: table-cell;
+    vertical-align: middle;
+    pointer-events:none;
+}
+.modal-content {
+    /* Bootstrap sets the size of the modal in the modal-dialog class, we need to inherit it */
+    width:inherit;
+ max-width:inherit; /* For Bootstrap 4 - to avoid the modal window stretching full width */
+    height:inherit;
+    /* To center horizontally */
+    margin: 0 auto;
+    pointer-events:all;
 }

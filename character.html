@@ -44,122 +44,213 @@
 	<div class="container">
 		<div class="well">
 			<h3>Main Characters</h3>
-			<div class="well">
-				<div class="table-responsive">
-					<table class="table table-bordered">
-						<thead>
-							<tr>
-								<th colspan="4">Playable</th>
-							</tr>
-						</thead>
-						<tbody>
-							<tr>
-								<td>
-									<img src="assets/images/Main/marche.gif" class="img-responsive" alt="...">
-									<p>Marche<br>Radiuju</p>
-								</td>
-								<td>
-									<img src="assets/images/Main/month.gif" class="img-responsive" alt="...">
-									<p>Monthblanc</p>
-								</td>
-								<td>
-									<img src="assets/images/Main/ritz.gif" class="img-responsive" alt="...">
-									<p>Ritz<br>Malheur</p>
-								</td>
-								<td>
-									<img src="assets/images/Main/shara.gif" class="img-responsive" alt="...">
-									<p>Shara</p>
-								</td>
-							</tr>
-							<tr>
-								<td>
-									<img src="assets/images/Main/ezel.png" class="img-responsive" alt="...">
-									<p>Ezel<br>Berbier</p>
-								</td>
-								<td>
-									<img src="assets/images/Main/babus.png" class="img-responsive" alt="...">
-									<p>Babus<br>Swain</p>
-								</td>
-								<td>
-									<img src="assets/images/Main/judgecid.gif" class="img-responsive" alt="...">
-									<p>Cid<br>Randel</p>
-								</td>
-							</tr>
-						</tbody>
-					</table>
-				</div>
-			</div>
+			
 
 			<h3>Race</h3>
-			<div class="well">
-				<div class="table-responsive">
-					<table class="table table-bordered">
-						<thead>
-							<tr>
-								<th colspan="4">Human</th>
-							</tr>
-						</thead>
-						<tbody>
-							<tr>
-								<td>
-									<img src="assets/images/human/soldier.gif" class="img-responsive" alt="...">
-									<p>Soldier</p>
-								</td>
-								<td>
-									<img src="assets/images/human/thief.gif" class="img-responsive" alt="...">
-									<p>Thief</p>
-								</td>
-								<td>
-									<img src="assets/images/human/archer.gif" class="img-responsive" alt="...">
-									<p>Archer</p>
-								</td>
-								<td>
-									<img src="assets/images/human/whitemage.gif" class="img-responsive" alt="...">
-									<p>White<br>Mage</p>
-								</td>
-							</tr>
-							<tr>
-								<td>
-									<img src="assets/images/human/blackmage.gif" class="img-responsive" alt="...">
-									<p>Black <br> Mage</p>
-								</td>
-							</tr>
-						</tbody>
-					</table> <!-- End of human table -->
-				</div>
+			<ul class="nav nav-tabs">
+				<li class="active"><a data-toggle="tab" href="#human-1">Human</a></li>
+				<li><a data-toggle="tab" href="#moogle">Moogle</a></li>
+			</ul>
 
-				<div class="table-responsive">
-					<table class="table table-bordered">
-						<thead>
-							<tr>
-								<th colspan="4">Moogle</th>
-							</tr>
-						</thead>
-						<tbody>
-							<tr>
-								<td>
-									<img src="assets/images/moogle/blackmage.gif" class="img-responsive" alt="...">
-									<p>Black<br>Mage</p>
-								</td>
-								<td>
-									<img src="assets/images/moogle/thief.gif" class="img-responsive" alt="...">
-									<p>Thief</p>
-								</td>
-								<td>
-									<img src="assets/images/moogle/animist.gif" class="img-responsive" alt="...">
-									<p>Animist</p>
-								</td>
-								<td>
-									<img src="assets/images/moogle/mogknight.gif" class="img-responsive" alt="...">
-									<p>Mog<br>Knight</p>
-								</td>
-							</tr>
-						</tbody>
-					</table> <!-- End of moogle -->
-				</div>
+			<div class="well">
+				<div class="tab-content">
+					<div class="tab-pane fade in active" id="human-1">
+						<div class="row">
+							<div class="col-xs-12">
+								<div class="table-responsive">
+									<table class="table table-bordered">
+										<thead>
+											<tr>
+												<th colspan="4">Human</th>
+											</tr>
+										</thead>
+										<tbody>
+											<tr>
+												<td class="table-data">
+													<a data-toggle="modal" href="#soldier">
+														<img src="assets/images/human/soldier1.png" class="img-responsive" alt="...">
+														<p>Soldier</p>
+													</a>
+												</td>
+												<td class="table-data">
+													<a data-toggle="modal" href="#thief">
+														<img src="assets/images/human/thief1.png" class="img-responsive" alt="...">
+														<p>Thief</p>
+													</a>
+												</td>
+												<td class="table-data">
+													<a data-toggle="modal" href="#archer">
+														<img src="assets/images/human/archer1.png" class="img-responsive" alt="...">
+														<p>Archer</p>
+													</a>
+												</td>
+												<td class="table-data">
+													<a data-toggle="modal" href="#whitemage">
+														<img src="assets/images/human/whitemage1.png" class="img-responsive" alt="...">
+														<p>White Mage</p>
+													</a>
+												</td>
+											</tr>
+											<tr>
+												<td class="table-data">
+													<a data-toggle="modal" href="#blackmage">
+														<img src="assets/images/human/blackmage1.png" class="img-responsive" alt="...">
+														<p>Black Mage</p>
+													</a>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+								</div> <!-- End of human table -->
+							</div>
+						</div>
+					</div>
+
+					<div class="tab-pane fade" id="moogle">
+						<div class="row">
+							<div class="col-xs-12">
+								<div class="table-responsive">
+									<table class="table table-bordered">
+										<thead>
+											<tr>
+												<th colspan="4">Moogle</th>
+											</tr>
+										</thead>
+										<tbody>
+											<tr>
+												<td class="table-data">
+													<img src="assets/images/moogle/blackmage.png" class="img-responsive" alt="...">
+													<p>Black Mage</p>
+												</td>
+												<td class="table-data">
+													<img src="assets/images/moogle/thief.png" class="img-responsive" alt="...">
+													<p>Thief</p>
+												</td>
+												<td class="table-data">
+													<img src="assets/images/moogle/animist.png" class="img-responsive" alt="...">
+													<p>Animist</p>
+												</td>
+												<td class="table-data">
+													<img src="assets/images/moogle/mogknight.png" class="img-responsive" alt="...">
+													<p>Mog Knight</p>
+												</td>
+											</tr>
+										</tbody>
+									</table> <!-- End of moogle -->
+								</div>
+							</div>
+						</div>
+					</div>
+				</div> <!-- End of table content -->
 			</div> <!-- End of  header -->
 		</div> <!-- End of char container well -->
 	</div> <!-- End of container -->
+
+	<!-- Modals -->
+	<div id="soldier" class="modal fade" role="dialog">
+		<div class="vertical-alignment-helper">
+			<div class="modal-dialog modal-sm vertical-align-center">
+
+				<!-- Modal content-->
+				<div class="modal-content">
+					<div class="modal-header">
+						<img src="assets/images/human/soldier.gif">
+						<h4 class="modal-title">Soldier</h4>
+					</div>
+					<div class="modal-body">
+						<p>Soldier is one of the primary jobs of the human class.</p>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
+		</div> <!-- End of soldier modal -->
+	</div>
+
+	<div id="thief" class="modal fade" role="dialog">
+		<div class="vertical-alignment-helper">
+			<div class="modal-dialog modal-sm vertical-align-center">
+
+				<!-- Modal content-->
+				<div class="modal-content">
+					<div class="modal-header">
+						<img src="assets/images/human/thief.gif">
+						<h4 class="modal-title">Theif</h4>
+					</div>
+					<div class="modal-body">
+						<p>Thief is one of the primary jobs of the human class.</p>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
+		</div> <!-- End of theif modal -->
+	</div>
+
+	<div id="archer" class="modal fade" role="dialog">
+		<div class="vertical-alignment-helper">
+			<div class="modal-dialog modal-sm vertical-align-center">
+
+				<!-- Modal content-->
+				<div class="modal-content">
+					<div class="modal-header">
+						<img src="assets/images/human/archer.gif">
+						<h4 class="modal-title">Archer</h4>
+					</div>
+					<div class="modal-body">
+						<p>Archer is one of the primary jobs of the human class.</p>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
+		</div> <!-- End of theif modal -->
+	</div>
+
+	<div id="whitemage" class="modal fade" role="dialog">
+		<div class="vertical-alignment-helper">
+			<div class="modal-dialog modal-sm vertical-align-center">
+
+				<!-- Modal content-->
+				<div class="modal-content">
+					<div class="modal-header">
+						<img src="assets/images/human/whitemage.gif">
+						<h4 class="modal-title">White Mage</h4>
+					</div>
+					<div class="modal-body">
+						<p>White Mage is one of the primary jobs of the human class.</p>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
+		</div> <!-- End of white mage modal -->
+	</div>
+
+	<div id="blackmage" class="modal fade" role="dialog">
+		<div class="vertical-alignment-helper">
+			<div class="modal-dialog modal-sm vertical-align-center">
+
+				<!-- Modal content-->
+				<div class="modal-content">
+					<div class="modal-header">
+						<img src="assets/images/human/blackmage.gif">
+						<h4 class="modal-title">Archer</h4>
+					</div>
+					<div class="modal-body">
+						<p>Black Mage is one of the primary jobs of the human class.</p>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
+		</div> <!-- End of black modal -->
+	</div>
 
 <!-- bootstrap jQuery -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>

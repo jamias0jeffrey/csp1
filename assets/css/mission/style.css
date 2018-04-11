@@ -1,12 +1,21 @@
 body {
 	padding-top: 70px;
+	background-color: skyblue;
 }
 
 th {
-	background-color: skyblue;
+	background-color: #437ad3;
 }
 
 
 td {
 	background-color: #D2EDFF;
+}
+
+table {
+	white-space: nowrap;
+}
+
+.table-data1 {
+	width: 16.66%;
 }
