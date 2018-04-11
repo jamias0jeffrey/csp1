@@ -5,17 +5,19 @@ body {
 
 th {
 	background-color: #437ad3;
+	width: 16.66%;
 }
 
 
 td {
 	background-color: #D2EDFF;
-}
-
-table {
-	white-space: nowrap;
+	width: 16.66%;
 }
 
 .table-data1 {
 	width: 16.66%;
+}
+
+#popcon {
+	color: red;
 }
