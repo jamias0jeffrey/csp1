@@ -3,39 +3,405 @@ body {
   background-color: skyblue;
 }
 
-.table-data {
-  width: 25%;
-  text-align: center;
+
+.well {
+  background-color: rgba(245, 245, 245, 0.4);
 }
 
+
+/* For modals */
 .modal-header {
 	text-align: center;
 }
 
-
-.well {
-   background-color: rgba(245, 245, 245, 0.4);
-}
-
-
 .vertical-alignment-helper {
-    display:table;
-    height: 100%;
-    width: 100%;
-    pointer-events:none;
+  display:table;
+  height: 100%;
+  width: 100%;
+  pointer-events:none;
 }
 .vertical-align-center {
-    /* To center vertically */
-    display: table-cell;
-    vertical-align: middle;
-    pointer-events:none;
+  display: table-cell;
+  vertical-align: middle;
+  pointer-events:none;
 }
 .modal-content {
-    /* Bootstrap sets the size of the modal in the modal-dialog class, we need to inherit it */
-    width:inherit;
- max-width:inherit; /* For Bootstrap 4 - to avoid the modal window stretching full width */
-    height:inherit;
-    /* To center horizontally */
-    margin: 0 auto;
-    pointer-events:all;
+ width:inherit;
+ max-width:inherit; 
+ height:inherit;
+ margin: 0 auto;
+ pointer-events:all;
 }
+
+
+/***********************/
+/* Main Charaters Grid */
+/***********************/
+#main-grid-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-areas: 
+    'marche'
+    'month'
+    'ritz'
+    'shara';
+  grid-gap: 10px;
+  padding: 10px;
+  text-align: center;
+  text-align: center;
+  justify-items: center;
+  align-items: center;
+}
+
+#marche-grid {
+  grid-area: marche;
+}
+
+#month-grid {
+  grid-area: month;
+}
+
+#ritz-grid {
+  grid-area: ritz;
+}
+
+#shara-grid {
+  grid-area: shara;
+}
+
+
+/**************/
+/* Human Grid */
+/**************/
+#human-grid-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(10, 1fr);
+  grid-template-areas: 
+    'husoldier'
+    'huthief'
+    'huwhitemage'
+    'hublackmage'
+    'hubluemage'
+    'hufighter'
+    'huhunter'
+    'hupaladin'
+    'huillusionist'
+    'huninja';
+  grid-gap: 10px;
+  padding: 10px;
+  text-align: center;
+  text-align: center;
+  justify-items: center;
+  align-items: center;
+}
+
+#human-grid-soldier {
+  grid-area: husoldier;
+}
+
+#human-grid-thief {
+  grid-area: huthief;
+}
+
+#human-grid-whitemage {
+  grid-area: huwhitemage;
+}
+
+#human-grid-blackmage {
+  grid-area: hublackmage;
+}
+
+#human-grid-bluemage {
+  grid-area: hubluemage;
+}
+
+#human-grid-fighter {
+  grid-area: hufighter;
+}
+
+#human-grid-hunter {
+  grid-area: huhunter;
+}
+
+#human-grid-paladin {
+  grid-area: hupaladin;
+}
+
+#human-grid-illusionist {
+  grid-area: huillusionist;
+}
+
+#human-grid-ninja {
+  grid-area: huninja;
+}
+
+/***************/
+/* Moogle Grid */
+/***************/
+#moogle-grid-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(8, 1fr);
+  grid-template-areas: 
+    'mgblackmage' 
+    'mgthief'
+    'mganimist'
+    'mgmogknight'
+    'mgtimemage'
+    'mggunner'
+    'mggadgeteer'
+    'mgjuggler';
+  grid-gap: 10px;
+  padding: 10px;
+  text-align: center;
+  justify-items: center;
+  align-items: center;
+}
+
+#moogle-grid-blackmage {
+  grid-area: mgblackmage;
+}
+
+#moogle-grid-thief {
+  grid-area: mgthief;
+}
+
+#moogle-grid-animist {
+  grid-area: mganimist;
+}
+
+#moogle-grid-mogknight {
+  grid-area: mgmogknight;
+}
+
+#moogle-grid-gunner {
+  grid-area: mggunner;
+}
+
+#moogle-grid-gadgeteer {
+  grid-area: mggadgeteer;
+}
+
+#moogle-grid-juggler {
+  grid-area: mgjuggler;
+}
+
+#moogle-grid-timemage {
+  grid-area: mgtimemage;
+}
+
+
+/**************/
+/* Bangaa Grid */
+/**************/
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(7, 1fr);
+  grid-template-areas: 
+    'monk'
+    'warrior'
+    'templar'
+    'bishop'
+    'defender'
+    'dragoon'
+    'gladiator';
+  grid-gap: 10px;
+  padding: 10px;
+  text-align: center;
+  text-align: center;
+  justify-items: center;
+  align-items: center;
+}
+
+.item1 {
+  grid-area: monk;
+}
+
+.item2 {
+  grid-area: warrior;
+}
+
+.item3 {
+  grid-area: templar;
+}
+
+.item4 {
+  grid-area: bishop;
+}
+
+.item5 {
+  grid-area: defender;
+}
+
+.item6 {
+  grid-area: dragoon;
+}
+
+.item7 {
+  grid-area: gladiator;
+}
+
+
+/***************/
+/* Nu Mou Grid */
+/***************/
+#numou-grid-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(8, 1fr);
+  grid-template-areas: 
+    'nublackmage'
+    'nuwhitemage'
+    'nutimemage'
+    'nubeastmaster'
+    'nualchemist'
+    'nuillusionist'
+    'nusage'
+    'numorpher';
+  grid-gap: 10px;
+  padding: 10px;
+  text-align: center;
+  text-align: center;
+  justify-items: center;
+  align-items: center;
+}
+
+
+#numou-grid-blackmage {
+  grid-area: nublackmage;
+}
+
+#numou-grid-whitemage {
+  grid-area: nuwhitemage;
+}
+
+#numou-grid-timemage {
+  grid-area: nutimemage;
+}
+
+#numou-grid-beastmaster {
+  grid-area: nubeastmaster;
+}
+
+#numou-grid-alchemist {
+  grid-area: nualchemist;
+}
+
+#numou-grid-illusionist {
+  grid-area: nuillusionist;
+}
+
+#numou-grid-morpher {
+  grid-area: numorpher;
+}
+
+#numou-grid-sage {
+  grid-area: nusage;
+}
+
+
+
+
+/* For Mobile */
+@media only screen and (max-width: 767px) {
+}
+
+
+/* For Tablet */
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+   #main-grid-container {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+      'marche ritz'
+      'month shara';
+  }
+
+  #human-grid-container {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-areas: 
+      'husoldier huthief'
+      'huwhitemage hublackmage'
+      'hubluemage hufighter'
+      'huhunter hupaladin'
+      'huillusionist huninja';
+    }
+
+    #moogle-grid-container {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+      'mgblackmage mgthief'
+      'mganimist mgmogknight'
+      'mgtimemage mggunner' 
+      'mggadgeteer mgjuggler';
+  }
+
+    .grid-container {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: 
+      'monk warrior'
+      'defender dragoon'
+      'gladiator bishop'
+      'templar ..';
+  }
+
+  #numou-grid-container {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+      'nublackmage nuwhitemage'
+      'nualchemist nuillusionist'
+      'nutimemage nubeastmaster'
+      'nusage numorpher';
+  }
+}
+
+/* For Desktop */
+@media only screen and (min-width: 993px) {
+    #main-grid-container {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+      'marche month ritz shara';
+  }
+
+    #human-grid-container {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas: 
+      'husoldier huthief huwhitemage hublackmage'
+      'hubluemage hufighter huhunter hupaladin'
+      'huillusionist huninja .. ..';
+  }
+
+    #moogle-grid-container {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+      'mgblackmage mgthief mganimist mgmogknight'
+      'mgtimemage mggunner mggadgeteer mgjuggler';
+  }
+
+    .grid-container {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+      'monk warrior templar bishop'
+      'defender dragoon gladiator ..';
+  }
+
+    #numou-grid-container {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+      'nublackmage nuwhitemage nutimemage nubeastmaster'
+      'nualchemist nuillusionist nusage numorpher';
+  }
+}
+

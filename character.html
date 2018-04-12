@@ -45,140 +45,306 @@
 		<div class="well">
 			<h3>Main Characters</h3>
 			<div class="well">
-				<div class="row">
-					<div class="col-xs-12">
-						<div class="table-responsive">
-							<table class="table table-bordered">
-								<tbody>
-									<tr>
-										<td class="table-data">
-											<a href="#marche-desc" data-toggle="modal">
-												<img src="assets/images/main/marche1.png" alt="...">
-												<p>Marche Radiuju</p>
-											</a>
-										</td>
-										<td class="table-data">
-											<a href="#month-desc" data-toggle="modal">
-												<img src="assets/images/main/month1.png" alt="...">
-												<p>Monthblanc</p>
-											</a>
-										</td>
-										<td class="table-data">
-											<a href="#ritz-desc" data-toggle="modal">
-												<img src="assets/images/main/ritz1.png" alt="...">
-												<p>Ritz Malheur</p>
-											</a>
-										</td>
-										<td class="table-data">
-											<a href="#shara-desc" data-toggle="modal">
-												<img src="assets/images/main/shara1.png" alt="...">
-												<p>Shara</p>
-											</a>
-										</td>
-									</tr>
-								</tbody>
-							</table>
-						</div> <!-- End of Main Characters table -->
-					</div> <!-- End of Main Characters col -->
-				</div> <!-- End of Main Characters row -->
+				<div class="grid-container" id="main-grid-container">
+					<div class="item1" id="marche-grid">
+						<a href="#marche-desc" data-toggle="modal">
+							<img src="assets/images/main/marche1.gif" class="img-responsive" alt="Marche Portrait">
+							<p>Marche Radiuju</p>
+						</a>
+					</div>
+					<div class="item2" id="month-grid">
+						<a href="#month-desc" data-toggle="modal">
+							<img src="assets/images/main/month1.gif" class="img-responsive" alt="Monthblanc Portrait">
+							<p>Monthblanc</p>
+						</a>
+					</div>
+					<div class="item3" id="ritz-grid">
+						<a href="#ritz-desc" data-toggle="modal">
+							<img src="assets/images/main/ritz1.gif" class="img-responsive" alt="Ritz Portrait">
+							<p>Ritz Malheur</p>
+						</a>
+					</div>
+					<div class="item4" id="shara-grid">
+						<a href="#shara-desc" data-toggle="modal">
+							<img src="assets/images/main/shara1.gif" class="img-responsive" alt="Shara Portrait">
+							<p>Shara</p>
+						</a>
+					</div>
+				</div>
 			</div> <!-- End of Main Characters well -->
 
 			<h3>Race</h3>
 			<ul class="nav nav-tabs">
 				<li class="active"><a data-toggle="tab" href="#human-1">Human</a></li>
 				<li><a data-toggle="tab" href="#moogle">Moogle</a></li>
+				<li><a data-toggle="tab" href="#bangaa">Bangaa</a></li>
+				<li><a data-toggle="tab" href="#numou">Numou</a></li>
+				<li><a data-toggle="tab" href="#vierra">Vierra</a></li>
 			</ul>
 
 			<div class="well">
 				<div class="tab-content">
+
+
 					<div class="tab-pane fade in active" id="human-1">
-						<div class="row">
-							<div class="col-xs-12">
-								<div class="table-responsive">
-									<table class="table table-bordered">
-										<thead>
-											<tr>
-												<th colspan="4">Human</th>
-											</tr>
-										</thead>
-										<tbody>
-											<tr>
-												<td class="table-data">
-													<a data-toggle="modal" href="#soldier">
-														<img src="assets/images/human/soldier1.png" class="img-responsive" alt="...">
-														<p>Soldier</p>
-													</a>
-												</td>
-												<td class="table-data">
-													<a data-toggle="modal" href="#thief">
-														<img src="assets/images/human/thief1.png" class="img-responsive" alt="...">
-														<p>Thief</p>
-													</a>
-												</td>
-												<td class="table-data">
-													<a data-toggle="modal" href="#archer">
-														<img src="assets/images/human/archer1.png" class="img-responsive" alt="...">
-														<p>Archer</p>
-													</a>
-												</td>
-												<td class="table-data">
-													<a data-toggle="modal" href="#whitemage">
-														<img src="assets/images/human/whitemage1.png" class="img-responsive" alt="...">
-														<p>White Mage</p>
-													</a>
-												</td>
-											</tr>
-											<tr>
-												<td class="table-data">
-													<a data-toggle="modal" href="#blackmage">
-														<img src="assets/images/human/blackmage1.png" class="img-responsive" alt="...">
-														<p>Black Mage</p>
-													</a>
-												</td>
-											</tr>
-										</tbody>
-									</table>
-								</div> <!-- End of human table -->
+						<div class="grid-container" id="human-grid-container">
+							<div class="item1" id="human-grid-soldier">
+								<a href="#hu-soldier" data-toggle="modal">
+									<img src="assets/images/human/soldier1.gif" gif="Soldier Portrait">
+									<p>Soldier</p>
+								</a>
+							</div>
+							<div class="item2" id="human-grid-thief">
+								<a href="#hu-thief" data-toggle="modal">
+									<img src="assets/images/human/thief1.gif" gif="Thief Portrait">
+									<p>Thief</p>
+								</a>
+							</div>
+							<div class="item3" id="human-grid-whitemage">
+								<a href="#hu-whitemage" data-toggle="modal">
+									<img src="assets/images/human/whitemage1.gif" gif="White Mage Portrait">
+									<p>White Mage</p>
+								</a>
+							</div>
+							<div class="item4" id="human-grid-blackmage">
+								<a href="#hu-blackmage" data-toggle="modal">
+									<img src="assets/images/human/blackmage1.gif" gif="Black Mage Portrait">
+									<p>Black Mage</p>
+								</a>
+							</div>
+							<div class="item5" id="human-grid-bluemage">
+								<a href="#hu-bluemage" data-toggle="modal">
+									<img src="assets/images/human/bluemage1.gif" gif="Blue Mage Portrait">
+									<p>Blue Mage</p>
+								</a>
+							</div>
+							<div class="item6" id="human-grid-fighter">
+								<a href="#hu-fighter" data-toggle="modal">
+									<img src="assets/images/human/fighter1.gif" gif="Fighter Portrait">
+									<p>Fighter</p>
+								</a>
+							</div>
+							<div class="item7" id="human-grid-hunter">
+								<a href="#hu-hunter" data-toggle="modal">
+									<img src="assets/images/human/hunter1.gif" gif="Hunter Portrait">
+									<p>Hunter</p>
+								</a>
+							</div>
+							<div class="item8" id="human-grid-paladin">
+								<a href="#hu-paladin" data-toggle="modal">
+									<img src="assets/images/human/paladin1.gif" gif="Paladin Portrait">
+									<p>Paladin</p>
+								</a>
+							</div>
+							<div class="item9" id="human-grid-illusionist">
+								<a href="#hu-illusionist" data-toggle="modal">
+									<img src="assets/images/human/Illusionist1.gif" gif="Illusionist Portrait">
+									<p>Illusionist</p>
+								</a>
+							</div>
+							<div class="item10" id="human-grid-ninja">
+								<a href="#hu-ninja" data-toggle="modal">
+									<img src="assets/images/human/ninja1.gif" gif="Ninja Portrait">
+									<p>Ninja</p>
+								</a>
 							</div>
 						</div>
-					</div>
+					</div> <!-- End of Human -->
 
 					<div class="tab-pane fade" id="moogle">
-						<div class="row">
-							<div class="col-xs-12">
-								<div class="table-responsive">
-									<table class="table table-bordered">
-										<thead>
-											<tr>
-												<th colspan="4">Moogle</th>
-											</tr>
-										</thead>
-										<tbody>
-											<tr>
-												<td class="table-data">
-													<img src="assets/images/moogle/blackmage.png" class="img-responsive" alt="...">
-													<p>Black Mage</p>
-												</td>
-												<td class="table-data">
-													<img src="assets/images/moogle/thief.png" class="img-responsive" alt="...">
-													<p>Thief</p>
-												</td>
-												<td class="table-data">
-													<img src="assets/images/moogle/animist.png" class="img-responsive" alt="...">
-													<p>Animist</p>
-												</td>
-												<td class="table-data">
-													<img src="assets/images/moogle/mogknight.png" class="img-responsive" alt="...">
-													<p>Mog Knight</p>
-												</td>
-											</tr>
-										</tbody>
-									</table> <!-- End of moogle -->
-								</div>
+						<div class="grid-container" id="moogle-grid-container">
+							<div class="item1" id="moogle-grid-blackmage">
+								<a href="#mg-blackmage" data-toggle="modal">
+									<img src="assets/images/moogle/blackmage1.gif" class="img-responsive" alt="Black Mage Portrait">
+									<p>Black Mage</p>
+								</a>
+							</div>
+							<div class="item2" id="moogle-grid-thief">
+								<a href="#mg-thief" data-toggle="modal">
+									<img src="assets/images/moogle/thief1.gif" class="img-responsive" alt="Thief Portrait">
+									<p>Thief</p>
+								</a>
+							</div>
+							<div class="item3" id="moogle-grid-animist">
+								<a href="#mg-animist" data-toggle="modal">
+									<img src="assets/images/moogle/animist1.gif" class="img-responsive" alt="Animist Portrait">
+									<p>Animist</p>
+								</a>
+							</div>
+							<div class="item4" id="moogle-grid-mogknight">
+								<a href="#mg-mogknight" data-toggle="modal">
+									<img src="assets/images/moogle/mogknight1.gif" class="img-responsive" alt="MogKnight Portrait">
+									<p>Mog Knight</p>
+								</a>
+							</div>
+							<div class="item5" id="moogle-grid-gunner">
+								<a href="#mg-gunner" data-toggle="modal">
+									<img src="assets/images/moogle/gunner1.gif" class="img-responsive" alt="Gunner Portrait">
+									<p>Gunner</p>
+								</a>
+							</div>
+							<div class="item6" id="moogle-grid-gadgeteer">
+								<a href="#mg-gadgeteer" data-toggle="modal">
+									<img src="assets/images/moogle/gadgeteer1.gif" class="img-responsive" alt="Gadgeteer Portrait">
+									<p>Gadgeteer</p>
+								</a>
+							</div>
+							<div class="item7" id="moogle-grid-juggler">
+								<a href="#mg-juggler" data-toggle="modal">
+									<img src="assets/images/moogle/juggler1.gif" class="img-responsive" alt="Juggler Portrait">
+									<p>Juggle</p>
+								</a>
+							</div>
+							<div class="item8" id="moogle-grid-timemage">
+								<a href="#mg-timemage" data-toggle="modal">
+									<img src="assets/images/moogle/timemage1.gif" class="img-responsive" alt="Time Mage Portrait">
+									<p>Time Mage</p>
+								</a>
 							</div>
 						</div>
-					</div>
-				</div> <!-- End of table content -->
+					</div> <!-- End of moogle -->
+
+					<div class="tab-pane fade" id="bangaa">
+						<div class="grid-container">
+							<div class="item1">
+								<img src="assets/images/bangaa/whitemonk1.gif" alt="White Monk Portrait">
+								<p>White Monk</p>
+							</div>
+							<div class="item2">
+								<img src="assets/images/bangaa/warrior1.gif" alt="Warrior Portrait">
+								<p>Warrior</p>
+							</div>
+							<div class="item3">
+								<img src="assets/images/bangaa/templar1.gif" alt="Templar Portrait">
+								<p>Templar</p>
+							</div>
+							<div class="item4">
+								<img src="assets/images/bangaa/bishop1.gif" alt="Bishope Portrait">
+								<p>Bishop</p>
+							</div>
+							<div class="item5">
+								<img src="assets/images/bangaa/defender1.gif" alt="Defender Portrait">
+								<p>Defender</p>
+							</div>
+							<div class="item6">
+								<img src="assets/images/bangaa/dragoon1.gif" alt="Dragoon Portrait">
+								<p>Dragoon</p>
+							</div>
+							<div class="item7">
+								<img src="assets/images/bangaa/gladiator1.gif" alt="Gladiator Portrait">
+								<p>Gladiator</p>
+							</div>
+						</div>
+					</div> <!-- End of bangaa -->
+
+					<div class="tab-pane fade" id="numou">
+						<div class="grid-container" id="numou-grid-container">
+							<div class="item1" id="numou-grid-blackmage">
+								<a href="#nu-blackmage" data-toggle="modal">
+									<img src="assets/images/numou/blackmage1.gif" alt="Black Mage Nu Mou Portrait">
+									<p>Black Mage</p>
+								</a>
+							</div>
+							<div class="item2" id="numou-grid-whitemage">
+								<a href="#nu-whitemage" data-toggle="modal">
+									<img src="assets/images/numou/whitemage1.gif" alt="White Mage Nu Mou Portrait">
+									<p>White Mage</p>
+								</a>
+							</div>
+							<div class="item3" id="numou-grid-timemage">
+								<a href="#nu-timemage" data-toggle="modal">
+									<img src="assets/images/numou/timemage1.gif" alt="Time Mage Nu Mou Portrait">
+									<p>Time Mage</p>
+								</a>
+							</div>
+							<div class="item4" id="numou-grid-beastmaster">
+								<a href="#nu-beastmaster" data-toggle="modal">
+									<img src="assets/images/numou/beastmaster1.gif" alt="Beast master Nu Mou Portrait">
+									<p>Beast Master</p>
+								</a>
+							</div>
+							<div class="item5" id="numou-grid-alchemist">
+								<a href="#nu-alchemist" data-toggle="modal">
+									<img src="assets/images/numou/alchemist1.gif" alt="Alchemist Portrait">
+									<p>Alchemist</p>
+								</a>
+							</div>
+							<div class="item6" id="numou-grid-illusionist">
+								<a href="#nu-illusionist" data-toggle="modal">
+									<img src="assets/images/numou/illusionist1.gif" alt="Illusionist Nu Mou Portrait">
+									<p>Illusionist</p>
+								</a>
+							</div>
+							<div class="item7" id="numou-grid-morpher">
+								<a href="#nu-morpher" data-toggle="modal">
+									<img src="assets/images/numou/morpher1.gif" alt="Morpher Nu Mou Portrait">
+									<p>Morpher</p>
+								</a>
+							</div>
+							<div class="item8" id="numou-grid-sage">
+								<a href="#nu-sage" data-toggle="modal">
+									<img src="assets/images/numou/sage1.gif" alt="Sage Nu Mou Portrait">
+									<p>Sage</p>
+								</a>
+							</div>
+						</div>
+					</div> <!-- End of Nu Mou -->
+
+					<div class="tab-pane fade" id="vierra">
+						<div class="grid-container" id="vierra-grid-container">
+							<div class="item1" id="vierra-grid-whitemage">
+								<a href="#ve-whitemage" data-toggle="modal">
+									<img src="assets/images/viera/whitemage1.gif" alt="White Mage Portrait">
+									<p>White Mage</p>
+								</a>
+							</div>
+							<div class="item2" id="vierra-grid-fencer">
+								<a href="#ve-fencer" data-toggle="modal">
+									<img src="assets/images/viera/fencer1.gif" alt="Fencer Portrait">
+									<p>Fencer</p>
+								</a>
+							</div>
+							<div class="item3" id="vierra-grid-archer">
+								<a href="#ve-archer" data-toggle="modal">
+									<img src="assets/images/viera/whitemage1.gif" alt="Archer Portrait">
+									<p>Archer</p>
+								</a>
+							</div>
+							<div class="item4" id="vierra-grid-redmage">
+								<a href="#ve-redmage" data-toggle="modal">
+									<img src="assets/images/viera/redmage1.gif" alt="Red Mage Portrait">
+									<p>Red Mage</p>
+								</a>
+							</div>
+							<div class="item5" id="vierra-grid-sniper">
+								<a href="#ve-sniper" data-toggle="modal">
+									<img src="assets/images/viera/sniper1.gif" alt="sniper Portrait">
+									<p>Sniper</p>
+								</a>
+							</div>
+							<div class="item6" id="vierra-grid-elementalist">
+								<a href="#ve-elementalist" data-toggle="modal">
+									<img src="assets/images/viera/whitemage1.gif" alt="Elementalist Portrait">
+									<p>Elementalist</p>
+								</a>
+							</div>
+							<div class="item7" id="vierra-grid-summoner">
+								<a href="#ve-summoner" data-toggle="modal">
+									<img src="assets/images/viera/summoner1.gif" alt="summoner Portrait">
+									<p>Summoner</p>
+								</a>
+							</div>
+							<div class="item8" id="vierra-grid-assassin">
+								<a href="#ve-assassin" data-toggle="modal">
+									<img src="assets/images/viera/assassin1.gif" alt="Assassin Portrait">
+									<p>Assassin</p>
+								</a>
+							</div>
+						</div>
+					</div> <!-- End of Vierra -->
+
+
+				</div> <!-- End of tab content -->
 			</div> <!-- End of  header -->
 		</div> <!-- End of char container well -->
 	</div> <!-- End of container -->
@@ -195,7 +361,7 @@
 				<!-- Modal content-->
 				<div class="modal-content">
 					<div class="modal-header">
-						<img src="assets/images/main/marche2.gif">
+						<img src="assets/images/main/marche.gif" alt="Marche sprite">
 						<h4 class="modal-title">Marche Radiuju</h4>
 					</div>
 					<div class="modal-body">
@@ -217,7 +383,7 @@
 				<!-- Modal content-->
 				<div class="modal-content">
 					<div class="modal-header">
-						<img src="assets/images/main/month2.gif">
+						<img src="assets/images/main/month.gif" alt="Monthblanc sprite">
 						<h4 class="modal-title">Monthblanc</h4>
 					</div>
 					<div class="modal-body">
@@ -240,7 +406,7 @@
 				<!-- Modal content-->
 				<div class="modal-content">
 					<div class="modal-header">
-						<img src="assets/images/main/ritz2.gif">
+						<img src="assets/images/main/ritz.gif" alt="Ritz sprite">
 						<h4 class="modal-title">Ritz Malheur</h4>
 					</div>
 					<div class="modal-body">
@@ -263,7 +429,7 @@
 				<!-- Modal content-->
 				<div class="modal-content">
 					<div class="modal-header">
-						<img src="assets/images/main/shara2.gif">
+						<img src="assets/images/main/shara.gif" alt="Shara Sprite">
 						<h4 class="modal-title">Shara</h4>
 					</div>
 					<div class="modal-body">
@@ -278,14 +444,17 @@
 		</div>
 	</div><!-- End of shara modal -->
 
-	<div id="soldier" class="modal fade" role="dialog">
+	<!--***************-->
+	<!--+ HUMAN MODAL +-->
+	<!--***************-->
+	<div id="hu-soldier" class="modal fade" role="dialog">
 		<div class="vertical-alignment-helper">
 			<div class="modal-dialog modal-sm vertical-align-center">
 
 				<!-- Modal content-->
 				<div class="modal-content">
 					<div class="modal-header">
-						<img src="assets/images/human/soldier.gif">
+						<img src="assets/images/human/soldier.gif" alt="Soldier sprite">
 						<h4 class="modal-title">Soldier</h4>
 					</div>
 					<div class="modal-body">
@@ -299,14 +468,14 @@
 		</div>
 	</div><!-- End of soldier modal -->
 
-	<div id="thief" class="modal fade" role="dialog">
+	<div id="hu-thief" class="modal fade" role="dialog">
 		<div class="vertical-alignment-helper">
 			<div class="modal-dialog modal-sm vertical-align-center">
 
 				<!-- Modal content-->
 				<div class="modal-content">
 					<div class="modal-header">
-						<img src="assets/images/human/thief.gif">
+						<img src="assets/images/human/thief.gif" alt="Thief sprite">
 						<h4 class="modal-title">Theif</h4>
 					</div>
 					<div class="modal-body">
@@ -320,14 +489,14 @@
 		</div> 
 	</div> <!-- End of theif modal -->
 
-	<div id="archer" class="modal fade" role="dialog">
+	<div id="hu-archer" class="modal fade" role="dialog">
 		<div class="vertical-alignment-helper">
 			<div class="modal-dialog modal-sm vertical-align-center">
 
 				<!-- Modal content-->
 				<div class="modal-content">
 					<div class="modal-header">
-						<img src="assets/images/human/archer.gif">
+						<img src="assets/images/human/archer.gif" alt="Archer sprite">
 						<h4 class="modal-title">Archer</h4>
 					</div>
 					<div class="modal-body">
@@ -341,14 +510,14 @@
 		</div> 
 	</div> <!-- End of archer modal -->
 
-	<div id="whitemage" class="modal fade" role="dialog">
+	<div id="hu-whitemage" class="modal fade" role="dialog">
 		<div class="vertical-alignment-helper">
 			<div class="modal-dialog modal-sm vertical-align-center">
 
 				<!-- Modal content-->
 				<div class="modal-content">
 					<div class="modal-header">
-						<img src="assets/images/human/whitemage.gif">
+						<img src="assets/images/human/whitemage.gif" alt="White Mage sprite">
 						<h4 class="modal-title">White Mage</h4>
 					</div>
 					<div class="modal-body">
@@ -362,15 +531,15 @@
 		</div> 
 	</div><!-- End of white mage modal -->
 
-	<div id="blackmage" class="modal fade" role="dialog">
+	<div id="hu-blackmage" class="modal fade" role="dialog">
 		<div class="vertical-alignment-helper">
 			<div class="modal-dialog modal-sm vertical-align-center">
 
 				<!-- Modal content-->
 				<div class="modal-content">
 					<div class="modal-header">
-						<img src="assets/images/human/blackmage.gif">
-						<h4 class="modal-title">Archer</h4>
+						<img src="assets/images/human/blackmage.gif" alt="Black Mage sprite">
+						<h4 class="modal-title">Black Mage</h4>
 					</div>
 					<div class="modal-body">
 						<p>Black Mage is one of the primary jobs of the human class.</p>

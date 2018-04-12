@@ -36,8 +36,8 @@ button {
 	width: 30%;
 }
 
-.home-button {
-	
+#leftside {
+	text-align: center;
 }
 
 
@@ -49,3 +49,9 @@ button {
 	background-color: skyblue; 
 }
 
+.img-logo {
+	width: 150px;
+	height: 15px;
+	margin: 0 auto;
+	margin-top: 30px;
+}
