@@ -3,21 +3,54 @@ body {
 	background-color: skyblue;
 }
 
+
+
 th {
 	background-color: #437ad3;
-	width: 16.66%;
 }
 
 
 td {
 	background-color: #D2EDFF;
-	width: 16.66%;
+}
+
+
+#search-btn {
+	margin-bottom: 5px;
+	width: 50%;
 }
 
 .table-data1 {
-	width: 16.66%;
+
 }
 
 #popcon {
 	color: red;
+}
+
+
+
+/* For Mobile */
+@media only screen and (max-width: 767px) {
+
+}
+
+
+/* For Tablet */
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+	#search-btn {
+	margin-bottom: 5px;
+	width: 25%;
+	margin-left: 920px;
+	}
+}
+
+
+/* For Desktop */
+@media only screen and (min-width: 993px) {
+	#search-btn {
+	margin-bottom: 5px;
+	width: 20%;
+	margin-left: 920px;
+	}
 }
