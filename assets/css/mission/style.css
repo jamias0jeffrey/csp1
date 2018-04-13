@@ -22,7 +22,9 @@ td {
 	text-align: center;
 }
 
-
+#dropdownlist {
+	background-color: white;
+}
 
 /*.w-auto {
 	width: auto;
