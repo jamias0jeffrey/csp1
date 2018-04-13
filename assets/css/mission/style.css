@@ -1,3 +1,7 @@
+* {
+	font-family: 'Gaegu', cursive;
+}
+
 body {
 	padding-top: 70px;
 	background-color: skyblue;
@@ -7,26 +11,22 @@ body {
 
 th {
 	background-color: #437ad3;
+	color: white;
+	text-align: center;
+	vertical-align: middle;
 }
 
 
 td {
 	background-color: #D2EDFF;
+	text-align: center;
 }
 
 
-#search-btn {
-	margin-bottom: 5px;
-	width: 50%;
-}
 
-.table-data1 {
-
-}
-
-#popcon {
-	color: red;
-}
+/*.w-auto {
+	width: auto;
+}*/
 
 
 
@@ -37,7 +37,7 @@ td {
 
 
 /* For Tablet */
-@media only screen and (min-width: 768px) and (max-width: 992px) {
+@media only screen and (min-width: 768px) and (max-width: 991px) {
 	#search-btn {
 	margin-bottom: 5px;
 	width: 25%;
@@ -47,7 +47,7 @@ td {
 
 
 /* For Desktop */
-@media only screen and (min-width: 993px) {
+@media only screen and (min-width: 992px) {
 	#search-btn {
 	margin-bottom: 5px;
 	width: 20%;
