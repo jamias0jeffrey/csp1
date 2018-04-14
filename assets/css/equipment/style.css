@@ -1,26 +1,16 @@
-* {
-	box-sizing: border-box;
-	font-family: 'Gaegu', cursive;
-}
-
 body {
 	padding-top: 70px;
 	background: skyblue;
 }
 
-#dropdownlist {
-	background-color: white;
-}
-
 table {
 	margin-top: 5px;
-
 }
-
 
 th {
 	background-color: #437ad3;
 	vertical-align: middle;
+	width: 25%;
 }
 
 td {
@@ -29,7 +19,7 @@ td {
 
 #search-btn {
 	margin-bottom: 5px;
-	width: 50%;
+	width: 20%;
 	float: right;
 }
 
@@ -38,16 +28,14 @@ td {
 }
 
 
-
-
-
-/* For Mobile */
 @media only screen and (max-width: 767px) {
-
+	#search-btn {
+	margin-bottom: 5px;
+	width: 50%;
+	float: right;
+	}
 }
 
-
-/* For Tablet */
 @media only screen and (min-width: 768px) and (max-width: 992px) {
 	#search-btn {
 	margin-bottom: 5px;
@@ -56,8 +44,6 @@ td {
 	}
 }
 
-
-/* For Desktop */
 @media only screen and (min-width: 993px) {
 	#search-btn {
 	margin-bottom: 5px;

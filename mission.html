@@ -9,16 +9,9 @@
 	<link rel="shortcut icon" href="assets/images/town.ico" type="image/x-icon">
 	<link rel="icon" href="assets/images/town.ico" type="image/x-icon">
 
-	<!-- Fonts -->
-	<link href="https://fonts.googleapis.com/css?family=Gaegu" rel="stylesheet">
-
 	<title>Mission Page</title>
 
-
 	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
-	<!-- Mdbootstrap -->
-	<link href="assets/css/mdb.min.css" rel="stylesheet">
-
 	<link rel="stylesheet" type="text/css" href="assets/css/mission/style.css">
 
 </head>
@@ -35,117 +28,150 @@
 			<div class="collapse navbar-collapse" id="menu">
 				<ul class="nav navbar-nav">
 					<li><a href="home.html">Home</a></li>
-
 					<li><a href="character.html">Character</a></li>
-
 					<li class="dropdown">
-						<a class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Equipment<span class="caret"></span></a>
-						<div class="dropdown-menu dropdown-primary" id="dropdownlist">
-							<a href="headgear.html" class="dropdown-item">Headgear</a>
-							<a href="#" class="dropdown-item">Armor</a>
-							<a href="#" class="dropdown-item">Weapons</a>
-							<a href="#" class="dropdown-item">Others</a>
-						</div>
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">Equipment<span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="headgear.html">Headgear</a></li>
+							<li><a href="#">Armor</a></li>
+							<li><a href="#">Weapons</a></li>
+							<li><a href="#">Others</a></li>
+						</ul>
 					</li>
-
-					<li class="active"><a href="mission.html">Mission</a></li>
-
+					<li><a href="mission.html">Mission</a></li>
 				</ul>
 			</div>
 		</div>
 	</nav>
 
 	<div class="container">
-
-
 		<div class="row">
 			<div class="col-xs-12 col-md-6">
-				<table class="table table-responsive w-auto">
-					<tbody>
-						<tr>
-							<th>Name</th>
-							<td>Herb Picking</td>
-							<th>Rank</th>
-							<td>3</td>
-							<th>Price</th>
-							<td>200 Gil</td>
-						</tr>
-						<tr>
-							<th>Location</th>
-							<td>Giza Plains</td>
-							<th>Duration</th>
-							<td colspan="3">---</td>
-						</tr>
-						<tr>
-							<th>Appearance Requirement</th>
-							<td colspan="5">After 'Joininig Clan Nutsy' cutscene</td>
-						</tr>
-						<tr>
-							<th>Required Items</th>
-							<td colspan="5">None</td>
-						</tr>
-						<tr>
-							<th>Job/Skills Requirements</th>
-							<td colspan="5">None</td>
-						</tr>
-						<tr>
-							<th>Rewards</th>
-							<td colspan="5">
-								600gil|40AP								
-							</td>
-						</tr>
-						<tr>
-							<th>Clan Skill Reward</th>
-							<td colspan="5">None</td>
-						</tr>
-					</tbody>
-				</table>
-			</div> <!-- End of Herb Pick Table -->
+				<div class="table-responsive">
+					<table class="table">
+						<tbody>
+							<tr>
+								<th class="table-data1">Name</th>
+								<td class="table-data1">Herb Picking</td>
+								<th class="table-data1">Rank</th>
+								<td class="table-data1">3</td>
+								<th class="table-data1">Price</th>
+								<td class="table-data1">200 Gil</td>
+							<tr>
+								<th class="table-data1">Location</th>
+								<td class="table-data1">Giza Plains</td>
+								<th class="table-data1">Duration</th>
+								<td colspan="3">---</td>
+							</tr>
+								<th class="table-data1">Appearance Reqirement</th>
+								<td colspan="5">After "Joining Clan Nutsy" cutscene</td>
+							</tr>
+							<tr>
+								<th class="table-data1"> Required Items</th>
+								<td colspan="5">None</td>
+							</tr>
+							<tr>
+								<th class="table-data1">Job/Skill Requirements</th>
+								<td colspan="5">None</td>
+							</tr>
+							<tr>
+								<th class="table-data1">Rewards</th>
+								<td colspan="5">
+									<div class="table-responsive">
+										<table class="table">
+											<tr>
+												<td>600 Gil</td>
+												<td>40 AP</td>
+											</tr>
+										</table>
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<th class="table-data1">Clan Skill Reward</th>
+								<td colspan="5"></td>
+							</tr>
+						</tbody>
+					</table>
+				</div> <!-- End of quest 1 table -->
+			</div> <!-- End of quest 1 col -->
 
-			<div class="col-sm-12 col-md-6">
-				<table class="table table-responsive w-auto">
-					<tbody>
-						<tr>
-							<th>Name</th>
-							<td>Thesis Hunt</td>
-							<th>Rank</th>
-							<td>3</td>
-							<th>Price</th>
-							<td>600 Gil</td>
-						</tr>
-						<tr>
-							<th>Location</th>
-							<td>Lutia Pass</td>
-							<th>Duration</th>
-							<td colspan="3">---</td>
-						</tr>
-						<tr>
-							<th>Appearance Requirement</th>
-							<td colspan="5">Complete Herb Picking quest</td>
-						</tr>
-						<tr>
-							<th>Required Items</th>
-							<td colspan="5">None</td>
-						</tr>
-						<tr>
-							<th>Job/Skills Requirements</th>
-							<td colspan="5">None</td>
-						</tr>
-						<tr>
-							<th>Rewards</th>
-							<td colspan="5">
-								600gil|40AP|100CP|Random Item
-							</td>
-						</tr>
-						<tr>
-							<th>Clan Skill Reward</th>
-							<td colspan="5">None</td>
-						</tr>
-					</tbody>
-				</table>
-			</div> <!-- End of Herb Pick Table -->
-		</div>
-
+			<div class="col-xs-12 col-md-6">
+				<div class="table-responsive">
+					<table class="table">
+						<tbody>
+							<tr>
+								<th>Name</th>
+								<td>Thesis Hunt</td>
+								<th>Rank</th>
+								<td>3</td>
+								<th>Price</th>
+								<td>600 Gil</td>
+							<tr>
+								<th>Location</th>
+								<td>Lutia Pass</td>
+								<th>Duration</th>
+								<td colspan="3">---</td>
+							</tr>
+								<th>Appearance Reqirement</th>
+								<td colspan="5">Complete Herb Picking</td>
+							</tr>
+							<tr>
+								<th> Required Items</th>
+								<td colspan="5">None</td>
+							</tr>
+							<tr>
+								<th>Job/Skill Requirements</th>
+								<td colspan="5">None</td>
+							</tr>
+							<tr>
+								<th>Rewards</th>
+								<td colspan="5">
+									<div class="table-responsive">
+										<table class="table">
+											<tr>
+												<td>4,000 Gil</td>
+												<td>40 AP</td>
+												<td>100 CP</td>
+												<td>
+													<a href="#" class="popper" data-trigger="focus" data-toggle="popover">Random Item</a>
+													<div class="popper-content hide">
+														<p id="popcon">Burglar Sword---    
+														Atmos Blade---    
+														Barong---
+														Falchion---
+														Kris Knife---
+														Silver Rapier---
+														Ninja Knife---
+														Pure Staff---
+														Firewheel Rod---
+														Thunder Rod---
+														Char Bow---
+														Conch Shell---
+														Kaiser Knuckles---
+														Ice Shield---
+														Wizard Hat---
+														Blaze Robe---
+														Battle Boots---
+														Javelin---
+														Buster Sword---
+														Fortune Ring</p>
+													</div>
+												</td>
+											</tr>
+										</table>
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<th class="table-data1">Clan Skill Reward</th>
+								<td colspan="5"></td>
+							</tr>
+						</tbody>
+					</table>
+				</div> <!-- End of quest 2 table -->
+			</div> <!-- End of quest 2 col -->
+		</div> <!-- End of quest row -->
 
 		<div class="row">
 			<div class="col-xs-12 text-center">
@@ -166,21 +192,10 @@
 <!-- bootstrap jQuery -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
-<!-- JQuery -->
-<script type="text/javascript" src="assets/js/jquery-3.2.1.min.js"></script>
-
-<!-- Bootstrap tooltips -->
-<script type="text/javascript" src="assets/js/popper.min.js"></script>
-
 <!-- include all compile plugins needed for bootstrap -->
 <script src="assets/js/bootstrap.min.js"></script>
 
-<!-- MDB core JavaScript -->
-<script type="text/javascript" src="assets/js/mdb.min.js"></script>
-
 <!-- Imports custom scripts -->
 <script type="text/javascript" src="assets/js/script.js"></script>
-
-
 </body>
 </html>

@@ -1,15 +1,6 @@
-* {
-	box-sizing: border-box;
-	font-family: 'Gaegu', cursive;
-}
-
 body {
 	padding-top: 70px;
 	background-color: skyblue;
-}
-
-#dropdownlist {
-	background-color: white;
 }
 
 .well {

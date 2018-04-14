@@ -1,24 +1,11 @@
-* {
-  font-family: 'Gaegu', cursive;
-}
-
 body {
   padding-top: 70px;
   background-color: skyblue;
 }
 
-#dropdownlist {
-  background-color: white;
-}
 
 .well {
   background-color: rgba(245, 245, 245, 0.4);
-}
-
-#jobs-banner > img {
-  width: 250px;
-  height: 100px;
-  margin-bottom: 5px;
 }
 
 
@@ -31,16 +18,19 @@ body {
   display:table;
   height: 100%;
   width: 100%;
+  pointer-events:none;
 }
 .vertical-align-center {
   display: table-cell;
   vertical-align: middle;
+  pointer-events:none;
 }
 .modal-content {
  width:inherit;
  max-width:inherit; 
  height:inherit;
  margin: 0 auto;
+ pointer-events:all;
 }
 
 
