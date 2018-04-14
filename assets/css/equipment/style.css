@@ -8,6 +8,10 @@ body {
 	background: skyblue;
 }
 
+#dropdownlist {
+	background-color: white;
+}
+
 table {
 	margin-top: 5px;
 

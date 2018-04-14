@@ -7,6 +7,9 @@ body {
   background-color: skyblue;
 }
 
+#dropdownlist {
+  background-color: white;
+}
 
 .well {
   background-color: rgba(245, 245, 245, 0.4);
