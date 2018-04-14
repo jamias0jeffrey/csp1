@@ -9,6 +9,12 @@ body {
 }
 
 
+#jobs-banner {
+  width: 230px;
+  height: 100px;
+  margin-bottom: 5px;
+}
+
 /* For modals */
 .modal-header {
 	text-align: center;
@@ -308,6 +314,12 @@ body {
 
 /* For Tablet */
 @media only screen and (min-width: 768px) and (max-width: 992px) {
+    #jobs-banner {
+    width: 260px;
+    height: 120px;
+    margin-bottom: 5px;
+  }
+
    #main-grid-container {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
@@ -360,6 +372,11 @@ body {
 
 /* For Desktop */
 @media only screen and (min-width: 993px) {
+    #jobs-banner {
+    width: 270px;
+    height: 140px;
+    margin-bottom: 5px;
+  }
     #main-grid-container {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr;
